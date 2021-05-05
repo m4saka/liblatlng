@@ -102,4 +102,6 @@ SOFTWARE.
 ```
 
 ## 参考
-- 距離/方位計算の実装の参考資料: [緯度経度から方位角を算出する式 | teratail](https://teratail.com/questions/90662)
+- 距離/方位計算の実装の参考資料
+  - [２地点間の距離と方位角 - 高精度計算サイト(CASIO)](https://keisan.casio.jp/exec/system/1257670779)
+  - [緯度経度から方位角を算出する式 | teratail](https://teratail.com/questions/90662)
