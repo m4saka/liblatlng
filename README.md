@@ -74,6 +74,11 @@ Osaka from Tokyo [deg]: 348.3
   - 内容は`LatLng`と同じ
   - double型, float型以外を利用する必要がある場合に使用
 
+## 注意点
+- 2地点間の距離/方位の計算は, 地球が半径6378137mの球であることを仮定しています
+
+- `liblatlng.hpp`内では`<cmath>`ヘッダがインクルードされるため, `#define _USE_MATH_DEFINES`を記述する場合は`#include <liblatlng.hpp>`より前に記述する必要があります
+
 ## ライセンス
 MITライセンス
 
